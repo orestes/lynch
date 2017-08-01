@@ -1,7 +1,7 @@
 class Calculator {
   add(b, a) {
     if (a === undefined) {
-      throw new Error('Missing second operator')
+      throw new Error ('Missing second operator')
     }
     return a + b;
   }

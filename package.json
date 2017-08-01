@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage",
+    "test:dev": "jest --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/orestes/lynch/issues"
   },
-  "homepage": "https://github.com/orestes/lynch#readme"
+  "homepage": "https://github.com/orestes/lynch#readme",
+  "dependencies": {
+    "jest": "^20.0.4"
+  }
 }

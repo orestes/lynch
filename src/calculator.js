@@ -1,5 +1,5 @@
 class Calculator {
-  add(a, b) {
+  add(b, a) {
     return a + b;
   }
 

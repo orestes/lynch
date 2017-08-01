@@ -7,7 +7,7 @@ class Calculator {
     return a - b;
   }
 
-  times(a, b) {
+  times(b, a) {
     return a * b;
   }
 }

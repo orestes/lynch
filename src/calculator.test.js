@@ -37,3 +37,12 @@ test('time 1 * 2 = 2', () => {
   // Assert
   expect(result).toBe(2);
 });
+
+test('divide 5 / 2.5 = 2', () => {
+  // Set Up
+  const calculator = new Calculator();
+  // Execute
+  const result = calculator.divide(5, 2.5);
+  // Assert
+  expect(result).toBe(2);
+});

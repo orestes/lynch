@@ -13,6 +13,10 @@ class Calculator {
   times(b, a) {
     return a * b;
   }
+
+  divide(a, b) {
+    return a / b;
+  }
 }
 
 module.exports = Calculator;
